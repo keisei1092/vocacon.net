@@ -1,295 +1,125 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>VOCACON 2016</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href= "css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script>
-      // Google Analyticsを使うようになったらコメントアウトしてください
-      // if (location.search.indexOf('referrer=') >= 0) {
-      //   var params = location.search.replace('?', '').split('&');
-      //   for (var i = 0; i < params.length; i++) {
-      //     var kv = params[i].split('=');
-      //     if (kv.length == 2 && kv[0] == 'referrer') {
-      //       ga('set', 'referrer', decodeURIComponent(kv[1]));
-      //       break;
-      //     }
-      //   }
-      // }
-      // ga('send', 'pageview');
-    </script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>VOCACON 2016</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href= "css/stylish-portfolio.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+  // Google Analyticsを使うようになったらコメントアウトしてください
+  // if (location.search.indexOf('referrer=') >= 0) {
+  //   var params = location.search.replace('?', '').split('&');
+  //   for (var i = 0; i < params.length; i++) {
+  //     var kv = params[i].split('=');
+  //     if (kv.length == 2 && kv[0] == 'referrer') {
+  //       ga('set', 'referrer', decodeURIComponent(kv[1]));
+  //       break;
+  //     }
+  //   }
+  // }
+  // ga('send', 'pageview');
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
-
 <body>
-
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >VOCACON 2016</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Top</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >大会情報</a>
-            </li>
-            <li>
-                <a href="#program" onclick = $("#menu-close").click(); >出展企画</a>
-            </li>
-            <li>
-                <a href="#news" onclick = $("#menu-close").click(); >NEWS</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >お問い合わせ</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand">
+        <a href="#top"  onclick = $("#menu-close").click(); >VOCACON 2016</a>
+      </li>
+      <li>
+        <a href="#top" onclick = $("#menu-close").click(); >Top</a>
+      </li>
+      <li>
+        <a href="#about" onclick = $("#menu-close").click(); >大会情報</a>
+      </li>
+      <li>
+        <a href="#program" onclick = $("#menu-close").click(); >出展企画</a>
+      </li>
+      <li>
+        <a href="#news" onclick = $("#menu-close").click(); >NEWS</a>
+      </li>
+      <li>
+        <a href="#contact" onclick = $("#menu-close").click(); >お問い合わせ</a>
+      </li>
+    </ul>
+  </nav>
+  <header id="top" class="header">
     <div class="text-vertical-center">
-        <img src="img/2016_main_logo.png" alt="vocacon main logo" style="width:80%; height:auto;">
-            
-	<!--
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-	 -->
+      <img src="img/2016_main_logo.png" alt="vocacon main logo" style="width:80%; height:auto;">
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>歌唱合成に関わる最新が集う総合文化祭的ファンイベント！</h2>
+          <p class="lead">VOCACON&trade;は、VOCALOID&reg;<sup>※</sup>、UTAU、Sinsyといった歌唱合成技術やその派生文化のファンが企画を持ち寄り楽しむ、一泊二日（日帰り参加もあり）のコンベンション形式イベントです。開催される企画はオールジャンル・オールカテゴリ。歌唱合成に関する企画なら何でもアリの二日間です。</p>
         </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>歌唱合成に関わる最新が集う総合文化祭的ファンイベント！</h2>
-                    <p class="lead">VOCACON&trade;は、VOCALOID&reg;<sup>※</sup>、UTAU、Sinsyといった歌唱合成技術やその派生文化のファンが企画を持ち寄り楽しむ、一泊二日（日帰り参加もあり）のコンベンション形式イベントです。開催される企画はオールジャンル・オールカテゴリ。歌唱合成に関する企画なら何でもアリの二日間です。</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <!--
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <section id="program">
+      </div>
+    </div>
+  </section>
+  <!-- * Services was inserted here * -->
+  <section id="program">
     <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>6月2日<br>出展企画募集開始！</h1><br>
-            <h3><a href="http://goo.gl/forms/WCV4wHtATWJ7dYNN2" target="_blank">こちら</a>から募集要項をご覧の上、ご応募ください。</h3>
-        </div>
+      <div class="text-vertical-center">
+        <h1>6月2日<br>出展企画募集開始！</h1><br>
+        <h3><a href="http://goo.gl/forms/WCV4wHtATWJ7dYNN2" target="_blank">こちら</a>から募集要項をご覧の上、ご応募ください。</h3>
+      </div>
     </aside>
-    </section>
-    <section id="news"></section>
-
-    <!-- Portfolio 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    -->
-                    <!-- <!-- /.row (nested)  
-                    <a href="#" class="btn btn-dark">View More Items</a> -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
+  </section>
+  <section id="news"></section>
+  <!-- * Portfolio was inserted here * -->
+  <!-- * Call to Action was inserted here * -->
+  <section id="contact" class="map" onclick="document.getElementById('iframe').style.pointerEvents= 'auto'">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628197.6198035163!2d137.73970636013257!3d34.91201822320306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc17d1bbf6b26d450!2z44Ok44Oe44OP44Oq44K-44O844OI44Gk44G-5oGL!5e0!3m2!1sja!2sjp!4v1464783128996" id="iframe"></iframe>
+    <br />
+    <small>
+      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628197.6198035163!2d137.73970636013257!3d34.91201822320306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc17d1bbf6b26d450!2z44Ok44Oe44OP44Oq44K-44O844OI44Gk44G-5oGL!5e0!3m2!1sja!2sjp!4v1464783128996"></a>
+    </small>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h4><strong>主催：VOCACON実行委員会</strong>
+          </h4>
+          <p>本大会に関するお問い合わせは下記連絡先にお寄せください。<br>
+            ＊本イベントは有志団体「VOCACON実行委員会」が主催するファンイベントです。<br>
+            ＊本イベントに関するお問い合わせを開催会場にすることのないようご注意ください。</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:vocacon@gmail.com">vocacon@gmail.com</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li>
+                <a href="http://twitter.com/vocacon" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; 2016 VOCACON Executive Committee<br>
+              ※「VOCALOID（ボーカロイド）」はヤマハ株式会社の登録商標です。<br>
+            </p>
+          </div>
         </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action 
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
--->
-    <!-- Map -->
-    <section id="contact" class="map" onclick="document.getElementById('iframe').style.pointerEvents= 'auto'">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628197.6198035163!2d137.73970636013257!3d34.91201822320306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc17d1bbf6b26d450!2z44Ok44Oe44OP44Oq44K-44O844OI44Gk44G-5oGL!5e0!3m2!1sja!2sjp!4v1464783128996" id="iframe"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628197.6198035163!2d137.73970636013257!3d34.91201822320306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc17d1bbf6b26d450!2z44Ok44Oe44OP44Oq44K-44O844OI44Gk44G-5oGL!5e0!3m2!1sja!2sjp!4v1464783128996"></a>
-        </small>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>主催：VOCACON実行委員会</strong>
-                    </h4>
-                    <p>本大会に関するお問い合わせは下記連絡先にお寄せください。<br>
-＊本イベントは有志団体「VOCACON実行委員会」が主催するファンイベントです。<br>
-＊本イベントに関するお問い合わせを開催会場にすることのないようご注意ください。</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:vocacon@gmail.com">vocacon@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <!--<li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>-->
-                        <li>
-                            <a href="http://twitter.com/vocacon" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <!--<li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>-->
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; 2016 VOCACON Executive Committee<br>
-                    ※「VOCALOID（ボーカロイド）」はヤマハ株式会社の登録商標です。<br>
-                    </p>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
