@@ -64,3 +64,9 @@ body {
 .bold{
   font-weight: bold;
 }
+
+/* text color */
+
+.lightgray{
+  color: #D3D3D3;
+}
