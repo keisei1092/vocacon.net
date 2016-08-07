@@ -1,5 +1,18 @@
 /* text */
 
+/* use minnano-moji */
+@font-face {
+    font-family: minmoji;
+    src: url('https://minmoji.ucda.jp/fontseot/http%3A__vocacon.net');
+    src: local('minmoji'),
+        url('https://minmoji.ucda.jp/fontswoff/http%3A__vocacon.net') format('woff'),
+        url('https://minmoji.ucda.jp/fonts/http%3A__vocacon.net') format('opentype');
+}
+
+body {
+    font-family: minmoji;
+}
+
 /* text size */
 
 .f_12{
