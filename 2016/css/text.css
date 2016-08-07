@@ -1,0 +1,66 @@
+/* text */
+
+/* use minnano-moji */
+@font-face {
+    font-family: minmoji;
+    src: url('https://minmoji.ucda.jp/fontseot/http%3A__vocacon.net');
+    src: local('minmoji'),
+        url('https://minmoji.ucda.jp/fontswoff/http%3A__vocacon.net') format('woff'),
+        url('https://minmoji.ucda.jp/fonts/http%3A__vocacon.net') format('opentype');
+}
+
+body {
+    font-family: minmoji;
+}
+
+/* text size */
+
+.f_12{
+  font-size: 12px;
+}
+
+.f_18{
+  font-size: 18px;
+}
+
+.f_24{
+  font-size: 24px;
+}
+
+.f_30{
+  font-size: 30px;
+}
+
+.f_36{
+  font-size: 36px;
+}
+
+.f_42{
+  font-size: 42px;
+}
+
+.f_48{
+  font-size: 48px;
+}
+
+.f_54{
+  font-size: 54px;
+}
+
+.f_60{
+  font-size: 60px;
+}
+
+/* text style */
+
+.italic{
+  font-style: italic;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.bold{
+  font-weight: bold;
+}
