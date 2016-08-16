@@ -5,9 +5,9 @@
  * http://sole-color-blog.com/blog/php/49/
  */
 
-routing();
+execRouter();
 
-function routing()
+function execRouter()
 {
     $fp = loadCounterFile();
 
