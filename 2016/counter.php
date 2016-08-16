@@ -22,9 +22,9 @@ function loadCounterFile()
 {
     // counter.dat カウント数を書き込むテキストファイル
     $filename = 'hotel_guest_counter.dat';
+
     // counter.datファイルを fopenで開く
     return fopen($filename, "r+");
-
 }
 
 function increment($fp)
