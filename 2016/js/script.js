@@ -6,7 +6,6 @@ $(function() {
 
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
-        console.log('hoge');
         $("#sidebar-wrapper").toggleClass("active");
     });
 
