@@ -49,8 +49,8 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" onClick="return false;"><em class="fa fa-bars"></em></a>
-<nav id="sidebar-wrapper">
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" onclick="return false;"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
       <li class="sidebar-brand">
@@ -115,7 +115,6 @@
         negi.moe /『あなたのポケミク使ってますか？』<br>
         SUZU /『ボカ天♪ Returns ～ミクさんと星空散歩☆彡～』<br>
         ゆかり温泉実行委員会 /『新ゆかり温泉（仮）』<br>
-        ひめ /『ミクコス体験会』<br>
  </h5>
  <br><br>
         <h3>座談会・トークセッション系企画</h3><br>
@@ -135,9 +134,8 @@
         ねこづめ /『ミニライブ　〜ゆっかりしていってね〜（仮）』<br>
         ねこづめ /『Session V（仮）』<br>
         パン屋ゴスペル部 /『みんなで歌おう！VOCALOID GOSPEL CHOIR』<br>
-        ちーむMEOU /『（仮）デP feat. 初音ミク ポリッドミニライブ』<br>
+        れみっく /『（仮）デP feat. 初音ミク ポリッドミニライブ』<br>
         『揚琴で奏でる四季（仮）』<br>
-        るかっぽいど /『ルカ＆ミク声真似ライブ！』<br>
  </h5>
  
         <br><p>※タイムテーブルは後日公開となります。調整中の企画については決まり次第、発表していきます。</p>
@@ -153,9 +151,8 @@
                     <h3>NEWS</h3>
                     <br>
                     9月 宿泊参加の受付開始予定。<br>
-                    <a href="guide/index.php" class="btn btn-lg btn-light">参加案内を見る</a><br>
+                    <a href="http://vocacon.net/2015/guide/" target="_blank"><span style="color:#D6FAF7">※参考：前回大会の参加案内</span></a>
                     <hr>
-                    8/27 出展企画一覧を更新しました。参加案内を公開しました。<br>
                     8/20 出展企画一覧を公開しました。<br>
                     6/2 出展企画応募を開始しました。(6/30終了)<br>
                     <br>

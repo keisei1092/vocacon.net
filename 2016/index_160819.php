@@ -49,8 +49,8 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" onClick="return false;"><em class="fa fa-bars"></em></a>
-<nav id="sidebar-wrapper">
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" onclick="return false;"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
       <li class="sidebar-brand">
@@ -94,83 +94,14 @@
   <!-- * Services was inserted here * -->
   <section id="program">
     <div class="container callout">
-      <div class="text-vertical-center"><br>
-        <h1>出展企画一覧</h1><br>
-        <br>
-        <h3>展示系企画</h3><br>
-        <h5>
-        結月ゆかりレーシング /『ゼロから始める痛車レース』<br>
-        大人買いP /『VOCALOIDパッケージ展』<br>
-        ゆきさく /『青廃絵師によるKAITO兄さん10周年記念イラスト展示会』<br>
-        るかなんP /『日刊のランキング動画を外出先で編集するだけ』<br>
-        Eji /『Moresamplerに関する考察（仮）』<br> 
- </h5><br><br>
-        <h3>インタラクティブ系企画</h3><br>
-        <h5>
-        暇な研究員7 /『等身大初音ミクロボットMikuMikuFace』<br>
-        StrayCats'Lab /『手作りボカロ楽器と演奏支援装置』<br>
-        離陸P /『ボーカロイド内蔵ウクレレ「ボカレレ」の展示』<br>
-        Arc /『音声合成エンジンと人工無脳』<br>
-        真時雨＠ニコニコ技術部京都支部 /『「あの楽器」の展示と演奏』<br>
-        negi.moe /『あなたのポケミク使ってますか？』<br>
-        SUZU /『ボカ天♪ Returns ～ミクさんと星空散歩☆彡～』<br>
-        ゆかり温泉実行委員会 /『新ゆかり温泉（仮）』<br>
-        ひめ /『ミクコス体験会』<br>
- </h5>
- <br><br>
-        <h3>座談会・トークセッション系企画</h3><br>
-        <h5>
-        はくれいP /『初音ミク、等身大への思い』<br>
-        アンメルツP /『鏡音ファンの集い in ボカコン』<br>
-        初音ミクアフリカライブ実行委員会 /『初音ミクアフリカライブ』<br>
-        VOCALENDAR /『ボカロ未来予測(仮)』<br>
-        同志社大学 VOCALOID研究会 Arpeggio /『「良UTAU音源」を作る』<br>
-
- </h5>
- <br><br>
-        <h3>ライブ・ステージ系企画</h3><br>
-        <h5>
-        逝きる力 /『ルカライブ！』<br>
-        メカニカルガール /『初音ミクの等身大ロボットの展示・ライブ』<br>
-        ねこづめ /『ミニライブ　〜ゆっかりしていってね〜（仮）』<br>
-        ねこづめ /『Session V（仮）』<br>
-        パン屋ゴスペル部 /『みんなで歌おう！VOCALOID GOSPEL CHOIR』<br>
-        ちーむMEOU /『（仮）デP feat. 初音ミク ポリッドミニライブ』<br>
-        『揚琴で奏でる四季（仮）』<br>
-        るかっぽいど /『ルカ＆ミク声真似ライブ！』<br>
- </h5>
- 
-        <br><p>※タイムテーブルは後日公開となります。調整中の企画については決まり次第、発表していきます。</p>
-        <h4>※出展企画募集は終了しました。たくさんのご応募ありがとうございました。</h4>
+      <div class="text-vertical-center">
+        <h1>6月2日<br>出展企画募集開始！</h1><br>
+        <h3 class="lightgray"><s>こちらから募集要項をご覧の上、ご応募ください。</s></h3>
+        <p>出展企画募集は終了いたしました。</p>
       </div>
     </div>
   </section>
-  <section id="news">
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>NEWS</h3>
-                    <br>
-                    9月 宿泊参加の受付開始予定。<br>
-                    <a href="guide/index.php" class="btn btn-lg btn-light">参加案内を見る</a><br>
-                    <hr>
-                    8/27 出展企画一覧を更新しました。参加案内を公開しました。<br>
-                    8/20 出展企画一覧を公開しました。<br>
-                    6/2 出展企画応募を開始しました。(6/30終了)<br>
-                    <br>
-
-                    <!--
-                    <a href="#" class="btn btn-lg btn-light">宿泊参加申込み</a>
-                    <a href="#" class="btn btn-lg btn-dark">日帰り参加申込み</a>
-                    -->
-                </div>
-            </div>
-        </div>
-    </aside>
-  
-  
-  </section>
+  <section id="news"></section>
   <!-- * Portfolio was inserted here * -->
   <!-- * Call to Action was inserted here * -->
   <section id="contact" class="map" onclick="document.getElementById('iframe').style.pointerEvents= 'auto'">
