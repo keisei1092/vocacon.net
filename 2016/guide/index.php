@@ -1,3 +1,4 @@
 <?php
-
-// TODO リダイレクト処理
+// redirect: guide page was moved to the top directory.
+header('Location: http://vocacon.net/2016/guides.html');
+exit;
