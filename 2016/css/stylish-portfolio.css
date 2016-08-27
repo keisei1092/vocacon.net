@@ -169,7 +169,16 @@ hr.small {
   -o-background-size: cover;
 }
 
-#guide, .container_guide {
+#guide {
+  background: url(../img/guide.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #FFF;
+}
+
+.container_guide {
     padding: 50px 0;
 }
 
