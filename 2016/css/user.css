@@ -2,3 +2,21 @@
 .cancel-table-cell {
   display: block;
 }
+
+.underline {
+  display: inline-block !important;
+  margin-bottom: 21px !important;
+  padding-bottom: 9px !important;
+}
+
+.underline-lightblue {
+  border-bottom: solid 6px #03A9F4;
+}
+
+.underline-lime {
+  border-bottom: solid 6px #CCDB38;
+}
+
+.underline-amber {
+  border-bottom: solid 6px #FEC006;
+}
