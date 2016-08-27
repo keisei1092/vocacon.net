@@ -1,3 +1,5 @@
+<img src="2016/img/logo.png" />
+
 vocacon.net
 ===========
 
