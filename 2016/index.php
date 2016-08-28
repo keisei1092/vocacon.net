@@ -95,14 +95,14 @@
     <div class="container callout">
       <div class="text-vertical-center"><br>
         <h1 class="bigunderline bigunderline-amber">出展企画一覧</h1>
-        <h3 class="guide__text-heading">展示系企画</h3>
+        <h3 class="guide__text-heading">展示</h3>
         <p class="guide__text-normal"><span class="box-text-pink">『ゼロから始める痛車レース』</span></p><p class="guide__text-normal">結月ゆかりレーシング</p>
         <p class="guide__text-normal"><span class="box-text-pink">『VOCALOIDパッケージ展』</span></p><p class="guide__text-normal">大人買いP</p>
         <p class="guide__text-normal"><span class="box-text-pink">『青廃絵師によるKAITO兄さん10周年記念イラスト展示会』</span></p><p class="guide__text-normal">ゆきさく</p>
         <p class="guide__text-normal"><span class="box-text-pink">『日刊のランキング動画を外出先で編集するだけ』</span></p><p class="guide__text-normal">るかなんP</p>
         <p class="guide__text-normal"><span class="box-text-pink">『Moresamplerに関する考察（仮）』</span></p><p class="guide__text-normal">Eji</p>
         <hr class="guide__text-hr">
-        <h3>インタラクティブ系企画</h3><br>
+        <h3 class="guide__text-heading">インタラクティブ</h3><br>
         <p class="guide__text-normal"><span class="box-text-pink">『等身大初音ミクロボットMikuMikuFace』</span></p><p class="guide__text-normal">暇な研究員7</p>
         <p class="guide__text-normal"><span class="box-text-pink">『手作りボカロ楽器と演奏支援装置』</span></p><p class="guide__text-normal">StrayCats'Lab</p>
         <p class="guide__text-normal"><span class="box-text-pink">『ボーカロイド内蔵ウクレレ「ボカレレ」の展示』</span></p><p class="guide__text-normal">離陸P</p>
@@ -113,14 +113,14 @@
         <p class="guide__text-normal"><span class="box-text-pink">『新ゆかり温泉（仮）』</span></p><p class="guide__text-normal">ゆかり温泉実行委員会</p>
         <p class="guide__text-normal"><span class="box-text-pink">『ミクコス体験会』</span></p><p class="guide__text-normal">ひめ</p>
         <hr class="guide__text-hr">
-        <h3>座談会・トークセッション系企画</h3>
+        <h3 class="guide__text-heading">座談会・トークセッション</h3>
         <p class="guide__text-normal"><span class="box-text-pink">『初音ミク、等身大への思い』</span></p><p class="guide__text-normal">はくれいP</p>
         <p class="guide__text-normal"><span class="box-text-pink">『鏡音ファンの集い in ボカコン』</span></p><p class="guide__text-normal">アンメルツP</p>
         <p class="guide__text-normal"><span class="box-text-pink">『初音ミクアフリカライブ』</span></p><p class="guide__text-normal">初音ミクアフリカライブ実行委員会</p>
         <p class="guide__text-normal"><span class="box-text-pink">『ボカロ未来予測(仮)』</span></p><p class="guide__text-normal">VOCALENDAR</p>
         <p class="guide__text-normal"><span class="box-text-pink">『「良UTAU音源」を作る』</span></p><p class="guide__text-normal">同志社大学 VOCALOID研究会 Arpeggio</p>
         <hr class="guide__text-hr">
-        <h3>ライブ・ステージ系企画</h3>
+        <h3 class="guide__text-heading">ライブ・ステージ</h3>
         <p class="guide__text-normal"><span class="box-text-pink">『ルカライブ！』</span></p><p class="guide__text-normal">逝きる力</p>
         <p class="guide__text-normal"><span class="box-text-pink">『初音ミクの等身大ロボットの展示・ライブ』</span></p><p class="guide__text-normal">メカニカルガール</p>
         <p class="guide__text-normal"><span class="box-text-pink">『ミニライブ　〜ゆっかりしていってね〜（仮）』</span></p><p class="guide__text-normal">ねこづめ</p>
