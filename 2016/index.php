@@ -13,6 +13,7 @@
   <link href="css/mb/text.css" rel="stylesheet">
   <link href="css/color.css" rel="stylesheet">
   <link href="css/box.css" rel="stylesheet">
+  <link href="css/user.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -93,53 +94,49 @@
   <section id="program">
     <div class="container callout">
       <div class="text-vertical-center"><br>
-        <h1>出展企画一覧</h1><br>
-        <br>
-        <h3>展示系企画</h3><br>
-        <h5>
-        結月ゆかりレーシング /『ゼロから始める痛車レース』<br>
-        大人買いP /『VOCALOIDパッケージ展』<br>
-        ゆきさく /『青廃絵師によるKAITO兄さん10周年記念イラスト展示会』<br>
-        るかなんP /『日刊のランキング動画を外出先で編集するだけ』<br>
-        Eji /『Moresamplerに関する考察（仮）』<br> 
- </h5><br><br>
+        <h1 class="bigunderline bigunderline-amber">出展企画一覧</h1>
+        <h3 class="guide__text-heading">展示系企画</h3>
+        <p class="guide__text-normal"><span class="box-text-pink">『ゼロから始める痛車レース』</span></p><p class="guide__text-normal">結月ゆかりレーシング</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『VOCALOIDパッケージ展』</span></p><p class="guide__text-normal">大人買いP</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『青廃絵師によるKAITO兄さん10周年記念イラスト展示会』</span></p><p class="guide__text-normal">ゆきさく</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『日刊のランキング動画を外出先で編集するだけ』</span></p><p class="guide__text-normal">るかなんP</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『Moresamplerに関する考察（仮）』</span></p><p class="guide__text-normal">Eji</p>
+        <hr class="guide__text-hr">
         <h3>インタラクティブ系企画</h3><br>
-        <h5>
-        暇な研究員7 /『等身大初音ミクロボットMikuMikuFace』<br>
-        StrayCats'Lab /『手作りボカロ楽器と演奏支援装置』<br>
-        離陸P /『ボーカロイド内蔵ウクレレ「ボカレレ」の展示』<br>
-        Arc /『音声合成エンジンと人工無脳』<br>
-        真時雨＠ニコニコ技術部京都支部 /『「あの楽器」の展示と演奏』<br>
-        negi.moe /『あなたのポケミク使ってますか？』<br>
-        SUZU /『ボカ天♪ Returns ～ミクさんと星空散歩☆彡～』<br>
-        ゆかり温泉実行委員会 /『新ゆかり温泉（仮）』<br>
-        ひめ /『ミクコス体験会』<br>
- </h5>
- <br><br>
-        <h3>座談会・トークセッション系企画</h3><br>
-        <h5>
-        はくれいP /『初音ミク、等身大への思い』<br>
-        アンメルツP /『鏡音ファンの集い in ボカコン』<br>
-        初音ミクアフリカライブ実行委員会 /『初音ミクアフリカライブ』<br>
-        VOCALENDAR /『ボカロ未来予測(仮)』<br>
-        同志社大学 VOCALOID研究会 Arpeggio /『「良UTAU音源」を作る』<br>
-
- </h5>
- <br><br>
-        <h3>ライブ・ステージ系企画</h3><br>
-        <h5>
-        逝きる力 /『ルカライブ！』<br>
-        メカニカルガール /『初音ミクの等身大ロボットの展示・ライブ』<br>
-        ねこづめ /『ミニライブ　〜ゆっかりしていってね〜（仮）』<br>
-        ねこづめ /『Session V（仮）』<br>
-        パン屋ゴスペル部 /『みんなで歌おう！VOCALOID GOSPEL CHOIR』<br>
-        ちーむMEOU /『（仮）デP feat. 初音ミク ポリッドミニライブ』<br>
-        『揚琴で奏でる四季（仮）』<br>
-        るかっぽいど /『ルカ＆ミク声真似ライブ！』<br>
- </h5>
- 
-        <br><p>※タイムテーブルは後日公開となります。調整中の企画については決まり次第、発表していきます。</p>
-        <h4>※出展企画募集は終了しました。たくさんのご応募ありがとうございました。</h4>
+        <p class="guide__text-normal"><span class="box-text-pink">『等身大初音ミクロボットMikuMikuFace』</span></p><p class="guide__text-normal">暇な研究員7</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『手作りボカロ楽器と演奏支援装置』</span></p><p class="guide__text-normal">StrayCats'Lab</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ボーカロイド内蔵ウクレレ「ボカレレ」の展示』</span></p><p class="guide__text-normal">離陸P</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『音声合成エンジンと人工無脳』</span></p><p class="guide__text-normal">Arc</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『「あの楽器」の展示と演奏』</span></p><p class="guide__text-normal">真時雨＠ニコニコ技術部京都支部</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『あなたのポケミク使ってますか？』</span></p><p class="guide__text-normal">negi.moe</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ボカ天♪Returns～ミクさんと星空散歩☆彡～』</span></p><p class="guide__text-normal">SUZU</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『新ゆかり温泉（仮）』</span></p><p class="guide__text-normal">ゆかり温泉実行委員会</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ミクコス体験会』</span></p><p class="guide__text-normal">ひめ</p>
+        <hr class="guide__text-hr">
+        <h3>座談会・トークセッション系企画</h3>
+        <p class="guide__text-normal"><span class="box-text-pink">『初音ミク、等身大への思い』</span></p><p class="guide__text-normal">はくれいP</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『鏡音ファンの集い in ボカコン』</span></p><p class="guide__text-normal">アンメルツP</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『初音ミクアフリカライブ』</span></p><p class="guide__text-normal">初音ミクアフリカライブ実行委員会</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ボカロ未来予測(仮)』</span></p><p class="guide__text-normal">VOCALENDAR</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『「良UTAU音源」を作る』</span></p><p class="guide__text-normal">同志社大学 VOCALOID研究会 Arpeggio</p>
+        <hr class="guide__text-hr">
+        <h3>ライブ・ステージ系企画</h3>
+        <p class="guide__text-normal"><span class="box-text-pink">『ルカライブ！』</span></p><p class="guide__text-normal">逝きる力</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『初音ミクの等身大ロボットの展示・ライブ』</span></p><p class="guide__text-normal">メカニカルガール</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ミニライブ　〜ゆっかりしていってね〜（仮）』</span></p><p class="guide__text-normal">ねこづめ</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『Session V（仮）』</span></p><p class="guide__text-normal">ねこづめ</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『みんなで歌おう！VOCALOID GOSPEL CHOIR』</span></p><p class="guide__text-normal">パン屋ゴスペル部</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『（仮）デP feat. 初音ミク ポリッドミニライブ』</span></p><p class="guide__text-normal">ちーむMEOU</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『揚琴で奏でる四季（仮）』</span></p><p class="guide__text-normal">-</p>
+        <p class="guide__text-normal"><span class="box-text-pink">『ルカ＆ミク声真似ライブ！』</span></p><p class="guide__text-normal">るかっぽいど</p>
+        <hr class="guide__text-hr">
+        <p class="guide__text-normal">
+          ※タイムテーブルは後日公開となります。調整中の企画については決まり次第、発表していきます。
+        </p>
+        <h3>
+          ※出展企画募集は終了しました。たくさんのご応募ありがとうございました。
+        </h3>
+        <p style="height: 20px"></p> <!-- ＞＞＞モンキーパッチ＜＜＜ -->
       </div>
     </div>
   </section>
