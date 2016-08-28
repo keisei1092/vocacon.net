@@ -8,6 +8,10 @@
   text-shadow: 0px 0px 1px #FFF;
 }
 
+.gray {
+  color: gray;
+}
+
 .bigunderline {
   display: inline-block !important;
   margin-bottom: 21px !important;
@@ -43,6 +47,17 @@
   line-height: 1.33em;
   border: none;
   border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  height: 0.5px;
+  color: #FFF;
+}
+
+/* TODO: DRY */
+.guide__text-hr-dark {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 1.33em;
+  border: none;
+  border-top: solid 0.5px rgba(0, 0, 0, 0.15);
   height: 0.5px;
   color: #FFF;
 }
