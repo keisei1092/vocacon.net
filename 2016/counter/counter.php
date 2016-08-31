@@ -5,23 +5,34 @@
  * http://sole-color-blog.com/blog/php/49/
  */
 
+const COUNTER_HOTEL_GUEST = 0;
+const COUNTER_BUSTOUR_GUEST = 1;
+
 execRouter();
 
 function execRouter()
 {
-    $fp = loadCounterFile();
-
-    if (htmlspecialchars($_GET['increment'])) {
+    if (htmlspecialchars($_GET['type']) == 'increment') {
+        if (htmlspecialchars($_GET['method']) == 'stay') {
+            $fp = loadCounterFile(COUNTER_HOTEL_GUEST);
+        } elseif (htmlspecialchars($_GET['method']) == 'bustour') {
+            $fp = loadCounterFile(COUNTER_BUSTOUR_GUEST);
+        }
         increment($fp);
     } elseif (htmlspecialchars($_GET['echo'])) {
+        $fp = loadCounterFile();
         getCount($fp);
     }
 }
 
-function loadCounterFile()
+function loadCounterFile($fileType)
 {
     // counter.dat カウント数を書き込むテキストファイル
-    $filename = 'hotel_guest_counter.dat';
+    if ($fileType == COUNTER_HOTEL_GUEST) {
+        $filename = 'counter_hotel_guest.dat';
+    } elseif ($fileType == COUNTER_BUSTOUR_GUEST) {
+        $filename = 'counter_bustour_guest.dat';
+    }
 
     // counter.datファイルを fopenで開く
     return fopen($filename, "r+");
