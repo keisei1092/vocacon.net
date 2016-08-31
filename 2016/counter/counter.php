@@ -12,10 +12,10 @@ execRouter();
 
 function execRouter()
 {
-    if (htmlspecialchars($_GET['type']) == 'increment') {
-        if (htmlspecialchars($_GET['method']) == 'stay') {
+    if (htmlspecialchars($_GET['method']) == 'increment') {
+        if (htmlspecialchars($_GET['type']) == 'stay') {
             $fp = loadCounterFile(COUNTER_HOTEL_GUEST);
-        } elseif (htmlspecialchars($_GET['method']) == 'bustour') {
+        } elseif (htmlspecialchars($_GET['type']) == 'bustour') {
             $fp = loadCounterFile(COUNTER_BUSTOUR_GUEST);
         }
         increment($fp);
@@ -42,7 +42,7 @@ function increment($fp)
 {
     try {
         // fgets関数でcounter.datに書かれたカウント数を読み込む
-        $count = fgets($fp, 32);
+        $count = (int)fgets($fp, 32);
 
         // counter.datに書かれたカウント数を加算
         $count++;
