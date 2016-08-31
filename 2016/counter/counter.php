@@ -19,8 +19,12 @@ function execRouter()
             $fp = loadCounterFile(COUNTER_BUSTOUR_GUEST);
         }
         increment($fp);
-    } elseif (htmlspecialchars($_GET['echo'])) {
-        $fp = loadCounterFile();
+    } elseif (htmlspecialchars($_GET['method']) == 'echo') {
+        if (htmlspecialchars($_GET['type']) == 'stay') {
+            $fp = loadCounterFile(COUNTER_HOTEL_GUEST);
+        } elseif (htmlspecialchars($_GET['type']) == 'bustour') {
+            $fp = loadCounterFile(COUNTER_BUSTOUR_GUEST);
+        }
         getCount($fp);
     }
 }
@@ -65,8 +69,14 @@ function increment($fp)
     }
 }
 
+// カウントされた数字を表示
 function getCount($fp)
 {
-    // カウントされた数字を表示
-    return $count;
+    try {
+        $count = (int)fgets($fp, 32);
+        fclose($fp);
+        echo $count;
+    } catch (Exception $e) {
+        return 'error... ' . $e->getMessage();
+    }
 }
