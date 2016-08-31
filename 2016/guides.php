@@ -122,7 +122,8 @@
         </table>
         <p class="guide__text-normal bold">
           <a href="#2days" class="btn btn-light">
-            宿泊参加についての詳細はこちら
+            宿泊参加についての詳細はこちら<br>
+            ただいま <b><?php echo(file_get_contents("http://vocacon.net/2016/counter/counter.php?method=echo&type=stay")); ?></b> 人が参加申し込み中です
           </a>
         </p>
         <p class="guide__text-normal">
@@ -322,6 +323,10 @@
             <p class="guide__text-normal">
               <span class="box">バスツアー利用料金</span> 7,500円/人
             </p>
+            <p class="guide__text-normal">
+              ただいま <b><?php echo(file_get_contents("http://vocacon.net/2016/counter/counter.php?method=echo&type=bustour")); ?></b> 人がバスツアー参加申し込み中です
+            </p>
+
             <div class="col-lg-12 text-center">
               <a href="#" class="btn btn-lg btn-light">
                 宿泊参加申込みフォーム<br>
