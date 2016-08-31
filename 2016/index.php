@@ -13,8 +13,9 @@
   <link href="css/mb/text.css" rel="stylesheet">
   <link href="css/color.css" rel="stylesheet">
   <link href="css/box.css" rel="stylesheet">
-  <link href="css/user.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
@@ -48,8 +49,8 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle" onClick="return false;"><em class="fa fa-bars"></em></a>
-<nav id="sidebar-wrapper">
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
       <li class="sidebar-brand">
@@ -93,79 +94,14 @@
   <!-- * Services was inserted here * -->
   <section id="program">
     <div class="container callout">
-      <div class="text-vertical-center"><br>
-        <h1 class="bigunderline bigunderline-amber">出展企画一覧</h1>
-        <h3 class="guide__text-heading">展示</h3>
-        <p class="guide__text-normal"><span class="box-text-pink">『ゼロから始める痛車レース』</span></p><p class="guide__text-normal">結月ゆかりレーシング</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『VOCALOIDパッケージ展』</span></p><p class="guide__text-normal">大人買いP</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『青廃絵師によるKAITO兄さん10周年記念イラスト展示会』</span></p><p class="guide__text-normal">ゆきさく</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『日刊のランキング動画を外出先で編集するだけ』</span></p><p class="guide__text-normal">るかなんP</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『Moresamplerに関する考察（仮）』</span></p><p class="guide__text-normal">Eji</p>
-        <hr class="guide__text-hr">
-        <h3 class="guide__text-heading">インタラクティブ</h3><br>
-        <p class="guide__text-normal"><span class="box-text-pink">『等身大初音ミクロボットMikuMikuFace』</span></p><p class="guide__text-normal">暇な研究員7</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『手作りボカロ楽器と演奏支援装置』</span></p><p class="guide__text-normal">StrayCats'Lab</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ボーカロイド内蔵ウクレレ「ボカレレ」の展示』</span></p><p class="guide__text-normal">離陸P</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『音声合成エンジンと人工無脳』</span></p><p class="guide__text-normal">Arc</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『「あの楽器」の展示と演奏』</span></p><p class="guide__text-normal">真時雨＠ニコニコ技術部京都支部</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『あなたのポケミク使ってますか？』</span></p><p class="guide__text-normal">negi.moe</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ボカ天♪Returns～ミクさんと星空散歩☆彡～』</span></p><p class="guide__text-normal">SUZU</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『新ゆかり温泉（仮）』</span></p><p class="guide__text-normal">ゆかり温泉実行委員会</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ミクコス体験会』</span></p><p class="guide__text-normal">ひめ</p>
-        <hr class="guide__text-hr">
-        <h3 class="guide__text-heading">座談会・トークセッション</h3>
-        <p class="guide__text-normal"><span class="box-text-pink">『初音ミク、等身大への思い』</span></p><p class="guide__text-normal">はくれいP</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『鏡音ファンの集い in ボカコン』</span></p><p class="guide__text-normal">アンメルツP</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『初音ミクアフリカライブ』</span></p><p class="guide__text-normal">初音ミクアフリカライブ実行委員会</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ボカロ未来予測(仮)』</span></p><p class="guide__text-normal">VOCALENDAR</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『「良UTAU音源」を作る』</span></p><p class="guide__text-normal">同志社大学 VOCALOID研究会 Arpeggio</p>
-        <hr class="guide__text-hr">
-        <h3 class="guide__text-heading">ライブ・ステージ</h3>
-        <p class="guide__text-normal"><span class="box-text-pink">『ルカライブ！』</span></p><p class="guide__text-normal">逝きる力</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『初音ミクの等身大ロボットの展示・ライブ』</span></p><p class="guide__text-normal">メカニカルガール</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ミニライブ　〜ゆっかりしていってね〜（仮）』</span></p><p class="guide__text-normal">ねこづめ</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『Session V（仮）』</span></p><p class="guide__text-normal">ねこづめ</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『みんなで歌おう！VOCALOID GOSPEL CHOIR』</span></p><p class="guide__text-normal">パン屋ゴスペル部</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『（仮）デP feat. 初音ミク ポリッドミニライブ』</span></p><p class="guide__text-normal">ちーむMEOU</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『揚琴で奏でる四季（仮）』</span></p><p class="guide__text-normal">-</p>
-        <p class="guide__text-normal"><span class="box-text-pink">『ルカ＆ミク声真似ライブ！』</span></p><p class="guide__text-normal">るかっぽいど</p>
-        <hr class="guide__text-hr">
-        <p class="guide__text-normal">
-          ※タイムテーブルは後日公開となります。調整中の企画については決まり次第、発表していきます。
-        </p>
-        <h3>
-          ※出展企画募集は終了しました。たくさんのご応募ありがとうございました。
-        </h3>
-        <p style="height: 20px"></p> <!-- ＞＞＞モンキーパッチ＜＜＜ -->
+      <div class="text-vertical-center">
+        <h1>6月2日<br>出展企画募集開始！</h1><br>
+        <h3 class="lightgray"><s>こちらから募集要項をご覧の上、ご応募ください。</s></h3>
+        <p>出展企画募集は終了いたしました。</p>
       </div>
     </div>
   </section>
-  <section id="news">
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>NEWS</h3>
-                    <br>
-                    9月 宿泊参加の受付開始予定。<br>
-                    <a href="guide/index.php" class="btn btn-lg btn-light">参加案内を見る</a><br>
-                    <hr>
-                    8/27 出展企画一覧を更新しました。参加案内を公開しました。<br>
-                    8/20 出展企画一覧を公開しました。<br>
-                    6/2 出展企画応募を開始しました。(6/30終了)<br>
-                    <br>
-
-                    <!--
-                    <a href="#" class="btn btn-lg btn-light">宿泊参加申込み</a>
-                    <a href="#" class="btn btn-lg btn-dark">日帰り参加申込み</a>
-                    -->
-                </div>
-            </div>
-        </div>
-    </aside>
-  
-  
-  </section>
+  <section id="news"></section>
   <!-- * Portfolio was inserted here * -->
   <!-- * Call to Action was inserted here * -->
   <section id="contact" class="map" onclick="document.getElementById('iframe').style.pointerEvents= 'auto'">
